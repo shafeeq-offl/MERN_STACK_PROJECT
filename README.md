@@ -17,6 +17,14 @@ CampusEvents is a React, Express, MongoDB, and Node.js event management applicat
 
 The website is available at `http://localhost:3000`.
 
+## Project Structure
+
+```text
+frontend/   React and Vite client
+backend/    Express server, API routes, and MongoDB models
+dist/       Production build output
+```
+
 ## Production
 
 Run `npm run build`, then `npm start` to serve the bundled Express server and built React client.
